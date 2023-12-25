@@ -22,3 +22,5 @@ gem "debug", github: "ruby/debug", platforms: [:mri, :mswin]
 if RUBY_VERSION >= "3.0.0" && !is_truffleruby
   gem "repl_type_completor"
 end
+
+gem "rubocop", require: false
