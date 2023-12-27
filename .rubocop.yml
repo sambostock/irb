@@ -15,17 +15,17 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
 
-# For some reason the generated TODO didn't take these into account, so we exclude them manually.
-# We don't want to add them to the TODO file itself, to maintain `--regenerate-todo` compatibility.
+# These are grandfathered.
 Naming/MethodName:
-  Exclude:
-    - lib/irb.rb
-    - lib/irb/ext/multi-irb.rb
-    - lib/irb/locale.rb
+  AllowedPatterns:
+    - CurrentContext
+    - String
 Naming/VariableName:
-  Exclude:
-    - lib/irb/ext/multi-irb.rb
-    - lib/irb/extend-command.rb
-    - lib/irb/init.rb
-    - lib/irb/version.rb
-# End of amended TODO
+  AllowedPatterns:
+    - JobManager
+    - ALIASES
+    - EXTEND_COMMANDS
+    - CONF
+    - TRACER_INITIALIZED
+    - RELEASE_VERSION
+    - LAST_UPDATE_DATE
