@@ -890,18 +890,6 @@ Naming/VariableNumber:
     - 'test/irb/test_completion.rb'
     - 'test/irb/test_history.rb'
 
-# Offense count: 18
-Security/Eval:
-  Exclude:
-    - 'lib/irb.rb'
-    - 'lib/irb/completion.rb'
-    - 'lib/irb/context.rb'
-    - 'lib/irb/extend-command.rb'
-    - 'lib/irb/ruby-lex.rb'
-    - 'lib/irb/source_finder.rb'
-    - 'lib/irb/workspace.rb'
-    - 'test/irb/test_workspace.rb'
-
 # Offense count: 4
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: EnforcedStyle, AllowModifiersOnSymbols.

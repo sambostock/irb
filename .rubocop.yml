@@ -29,3 +29,6 @@ Naming/VariableName:
     - TRACER_INITIALIZED
     - RELEASE_VERSION
     - LAST_UPDATE_DATE
+
+Security/Eval:
+  Enabled: false # The whole point of this gem is to eval code.
